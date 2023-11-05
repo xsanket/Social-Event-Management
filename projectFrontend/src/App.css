@@ -1,0 +1,442 @@
+.App {
+  text-align: center;
+}
+.App {
+  text-align: center;
+}
+
+/* carsousel css */
+/* Set a specific height for the carousel items */
+.carousel .carousel-item {
+  height: 400px; /* Adjust the height as needed */
+}
+/* Set a specific height for the carousel items */
+/* Set a specific width and height for the images */
+.carousel .carousel-item img {
+  width: 100%;
+  height: 400px;
+}
+
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 10%;
+}
+
+
+.carousel .carousel-control-next-icon.changed {
+  background-image: url("");
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ios-carousel-title{
+  font-weight: 700;
+  color: red;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+
+}
+.Carousel.Caption{
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+/* RegistrationForm.css */
+
+.ios-theme {
+  
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/611/838/413/spiderman-hd-4k-superheroes-wallpaper-742d39da299f54848a44738e4edc3299.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    position: relative; /* Add this */
+    z-index: 0; /* Add this */
+  }
+  
+  .registration-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    position: relative; /* Add this */
+    z-index: 0; /* Add this */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #333;
+    border-radius: 0;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+  .Toastify__toast-container {
+    background-color: transparent !important;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .btn-success {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer.css */
+
+
+footer {
+  background-color: rgba(240, 240, 240, 0.8); /* Light gray background color with 80% opacity */
+  color: #333; /* Dark text color */
+  padding-top: 20px; /* Add padding to the top */
+}
+
+h3 {
+  font-size: 24px;
+  color: #333; /* Heading text color */
+}
+
+/* Style the social icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: #007bff; /* Blue icon color */
+  margin-right: 20px;
+  transition: color 0.2s; /* Add a smooth transition on hover */
+}
+
+.social-icon:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+col-md-4{
+  justify-content: center;
+}
+
+
+/* Style the contact info section */
+h5 {
+  justify-content: center;
+  margin-top: 20px;
+  color: #333; /* Contact info heading text color */
+}
+
+/* Style the links in the contact info section */
+.contact-link {
+  color: #007bff; /* Blue link color for contact info */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-link:hover {
+  color: #0056b3; /* Darker blue on hover for contact info links */
+}
+
+
+
+
+
+
+
+
+
+/* HOME CSS */
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container {
+  margin-top: 80px; 
+}
+
+
+
+
+
+
+
+/* SLIDER CSS */
+
+.navFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; /* Ensure it's on top of other elements */
+  background-color: white; /* Adjust as needed */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for iOS feel */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation css */
+
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007AFF; /* iOS blue color */
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure the navbar stays above other content */
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color:black;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SLIDER file */
+
+.ios-carousel {
+  background-color: #f4f4f4; /* Light gray background */
+  padding: 5px 5px;
+  border-radius: 20px 20px 20px 20px; /* 20px for top left and top right corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ios-carousel-title {
+  
+  font-size: 20px;
+  font-weight: bold;
+  color: #007AFF; /* iOS blue color */
+  margin-bottom: 10px;
+}
+
+.ios-carousel-description {
+  text-align: center;
+  font-size: 16px;
+  color: #333; /* Dark text color */
+}
+
+/* App.css or your custom CSS file */
+
+/* Style for the Next Button */
+.carousel-control-next {
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  font-size: 24px; /* Adjust font size */
+  color: #007AFF; /* iOS blue color or your desired color */
+}
+
+/* Style for the Previous Button */
+.carousel-control-prev {
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  font-size: 24px; /* Adjust font size */
+  color: #007AFF; /* iOS blue color or your desired color */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  align-items: center;
+  display: none !important; /* Use !important to override Bootstrap's styles */
+}
+/* App.css or your custom CSS file */
+
+.custom-carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; /* Adjust spacing as needed */
+}
+
+.custom-carousel-control {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 16px; /* Adjust the font size */
+  color: #007AFF; /* iOS blue color or your desired color */
+}
+
+.custom-carousel-control.prev::before {
+  content: '\2190'; /* Unicode arrow left character */
+  margin-right: 5px; /* Add space between the arrow and text */
+  align-items: center;
+}
+
+.custom-carousel-control.next::after {
+  content: '\2192'; /* Unicode arrow right character */
+  align-items: center;
+  margin-left: 5px; /* Add space between the text and arrow */
+}
+
+.toastContainer {
+  background-color: transparent; 
+}
